@@ -1,0 +1,138 @@
+<!doctype html>
+<html language="pt-br">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<thead>
+		<title>mjailton</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="js/datatables/css/jquery.dataTables.min.css">
+		<link rel="stylesheet" href="js/datatables/css/responsive.dataTables.min.css">
+		<link rel="stylesheet" href="js/datatables/css/style_dataTable.css">
+		<link rel="stylesheet" type="text/css" href="css/auxiliar.css">
+		<link rel="stylesheet" href="css/grade.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!--font icones-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		
+		<script src="js/jquery.min.js"></script>
+	</thead>
+	<body>
+		<header class="topo">
+			<div class="conteudo">
+				<a href="" class="mobmenu fas fa-bars"></a>
+				<a href="index.html" class="logo"><img src="img/logo.png"></a>
+				<nav class="menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="cadastro.html">Novo cadastro</a></li>
+						<li><a href="lista.html">Lista de contatos</a></li>
+						<li><a href="">Sair</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<div class="conteudo">
+			<section class="mt-4">
+				<div class="titulo h5 mb-0"><h2>Formulario de cadastro</h2></div>
+				<div class="base-form">
+					<div class="caixa-form">
+						<form action="" method="POST">				
+							<div class="rows">
+								<div class="col-12 d-flex text-justify-center">
+									<span href="" class="msg msg-verde mx-3"><i class="fas fa-check"></i> Cadastro realizado com sucesso <a href="javascrip:;" onclick="fecharMsg()" class="fas fa-times float-right"></a></span>
+									<span href="" class="msg msg-vermelho mx-3"><i class="fas fa-exclamation-triangle"></i> O campo é obrigatório <a href="javascript:;" onclick="fecharMsg()" class="fas fa-times float-right"></a></span>
+				
+								</div>				
+							</div>				
+							<div class="rows msg-form">	
+							  <div class="col-3 position-relative">									
+									<img src="img/img-usuario.png" class="img-fluido foto">
+									<div  class="foto-file">
+										<input type="file" id="editarFoto"><label for="editarFoto"><span>Editar foto</span></label>
+									</div>
+									<small class="d-block text-center pt-1 pb-2"><b>nome_do_arquivo.jpg</b></small>
+								</div>
+								
+								<div class="col-9">
+								<div class="rows">
+									<div class="col-8">
+										<label>Nome</label>
+										<input name="cliente" value="" type="text" placeholder="Insira um nome" class="form-campo">
+									</div>
+								<div class="col-4">
+									<label>CPF</label>
+									<input name="cpf" value="" type="text" placeholder="Insira seu CPF" class="form-campo">
+								</div>									
+									<div class="col-3">
+										<label>Nascimento</label>
+										<input name="nascimento" value="" type="date" placeholder="Insira seu nascimento" class="form-campo">
+									</div>							
+													
+								<div class="col-3">
+									<label>Celular</label>
+									<input name="celular" value="" type="text" placeholder="Insira seu celular" class="form-campo">
+								</div>
+									
+									<div class="col-6">
+										<label>Email</label>
+										<input name="cep" value="" type="text" placeholder="Insira seu Email" class="form-campo">
+									</div>
+									<div class="col-3">
+										<label>Cep</label>
+										<input name="cep" value="" type="text" placeholder="Insira seu email" class="form-campo">
+									</div>
+									
+									<div class="col-9">				
+										<label>Endereço</label>
+										<input name="endereco" value="" type="text" placeholder="Insira seu endereço" class="form-campo">
+									</div>
+									<div class="col-6">
+									<label>Complemento</label>
+									<input name="complemento" value="" type="text" placeholder="Insira um Número" class="form-campo">	
+								</div>
+								<div class="col-3">
+									<label>Número</label>
+									<input name="numero" value="" type="text" placeholder="Insira um Número" class="form-campo">	
+								</div>
+								
+									<div class="col-3">
+										<label>UF</label>
+										<input name="bairro" value="" type="text" placeholder="Insira seu bairro" class="form-campo">						
+									</div>
+								<div class="col-6">
+									<label>Bairro</label>
+									<input name="bairro" value="" type="text" placeholder="Insira seu bairro" class="form-campo">
+								</div>
+									
+								<div class="col-6">
+									<label>Cidade</label>
+									<input name="cidade" value="" type="text" placeholder="Insira sua cidade" class="form-campo">	
+								</div>		
+														
+																
+								
+								<div class="col-4 m-auto">
+									<input type="hidden" name="id_cliente" value="" />
+									<input type="submit" value="Cadastrar" class="btn btn-verde width-100">
+								</div>
+								
+								</div>
+								</div>
+								
+						</form>
+					</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		
+		<!---->
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/datatables/js/jquery.dataTables.min.js"></script>
+		<script src="js/datatables/js/dataTables.responsive.min.js"></script>
+		<script src="js/js.js"></script>
+		<script src="js/componentes/js_modal.js"></script>
+		<script src="js/componentes/js_data_table.js"></script>
+	</body>
+</html>

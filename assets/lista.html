@@ -1,0 +1,223 @@
+<!doctype html>
+<html language="pt-br">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<thead>
+		<title>mjailton</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="js/datatables/css/jquery.dataTables.min.css">
+		<link rel="stylesheet" href="js/datatables/css/responsive.dataTables.min.css">
+		<link rel="stylesheet" href="js/datatables/css/style_dataTable.css">
+		<link rel="stylesheet" type="text/css" href="css/auxiliar.css">
+		<link rel="stylesheet" href="css/grade.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!--font icones-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		
+		<script src="js/jquery.min.js"></script>
+	</thead>
+	<body>
+		<header class="topo">
+			<div class="conteudo">
+				<a href="" class="mobmenu fas fa-bars"></a>
+				<a href="index.html" class="logo"><img src="img/logo.png"></a>
+				<nav class="menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="cadastro.html">Novo cadastro</a></li>
+						<li><a href="lista.html">Lista de contatos</a></li>
+						<li><a href="">Sair</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<div class="conteudo">
+			<section class="caixa mt-4">
+				<div class="titulo h5 mb-0"> <h2>Lista de contatos</h2></div>
+				<div class="base-lista">
+					<div>
+						<div class="text-end d-flex">
+							<a href="cadastro.html" class="btn btn-verde d-inline-block mb-2 mx-1"><i class="fas fa fa-plus-circle" aria-hidden="true"></i> Cadastrar cliente</a>
+							<a href="" class="btn btn-azul d-inline-block mb-2 filtro"><i class="fas fa fa-filter" aria-hidden="true"></i> Filtrar</a>
+						</div>
+					</div>
+					<div class="lst mostraFiltro" style="">
+						<form action="" method="">
+						<div class="rows">
+								<div class="col-4">
+									<select name="txt_id_empresa">
+										<option selected>Selecione o valor...</option>
+										<option value="1">Código</option>
+										<option value="2">Nome</option>
+										<option value="3">Email</option>
+										<option value="4">Cidade</option>
+										<option value="5">Site</option>
+										<option value="6">Fone</option>
+									</select>
+								</div>
+								<div class="col-6">
+									<input type="text"  name="" placeholder="Valor da pesquisar..." >
+								</div>
+								<div class="col-2">
+									<input type="submit" class="btn btn-azul" value="pesquisar">
+								</div>
+						</div>
+						</form>
+					</div>
+						
+				<div class="tabela-responsiva tabela">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" id="dataTable">
+						<thead> 
+						  <tr>
+							<th align="left">Nome</th>
+							<th align="left">Email</th>
+							<th align="center">Telefone</th>
+							<th align="center">Ação</th>
+						  </tr>
+						</thead> 
+						<tbody>
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>	
+							<tr>
+								<td>Manoel Jailton Nascimento</td>
+								<td>mjailton@gmail.com</td>
+								<td align="center">9899924667</td>
+								<td align="center">
+									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
+									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+								</td>
+							</tr>					
+						</tbody> 
+					</table>
+					</div>
+								
+					</div>
+				</div>
+			</section>
+		</div>
+		
+		<!---->
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/datatables/js/jquery.dataTables.min.js"></script>
+		<script src="js/datatables/js/dataTables.responsive.min.js"></script>
+		<script src="js/js.js"></script>
+		<script src="js/componentes/js_modal.js"></script>
+		<script src="js/componentes/js_data_table.js"></script>
+	</body>
+</html>
